@@ -1,0 +1,84 @@
+body{
+  margin: 0 0 0 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.img-responsive{
+  max-width: 100%;
+}
+
+.hero-img{
+  background: url(hero.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+.hero-wrap{
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.hero-wrap h1{
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+.hero-wrap span{
+  display: inline-block;
+  margin-left: 4rem;
+  margin-bottom: .4rem;
+}
+
+.formcode{
+  text-align: center;
+}
+
+.formcode .postcode{
+   display: block;
+   width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 2rem;
+   padding: .6rem;
+   border:none;
+   outline: none;
+}
+
+.formcode button{
+  width: 40%;
+  padding: .5rem;
+  background-color: #00bab1;
+  color: white;
+  border: none;
+  border-radius: .3rem;
+  margin: 0.5rem auto 0;
+}
+
+.main-product{
+  margin-top: 1rem;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.product{
+  float: left;
+  width: 32%;
+  margin-left: .5rem;
+}
+
+.product: first-of-type{
+  margin-left: 0;
+}
+
+@media screen and (max-width:700px) {
+  .product{
+    width: 100%;
+    float: none;
+  }
+}
